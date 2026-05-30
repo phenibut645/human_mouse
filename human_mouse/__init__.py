@@ -1,4 +1,11 @@
-from .mouse import MouseController
+from .mouse import MouseController, TrajectoryPoint
+from .profile import MotionProfile, MotionSample, build_profile
 
-__version__ = "0.1.1"
-__all__ = ["MouseController"] 
+__version__ = "0.2.0"
+__all__ = [
+    "MouseController",
+    "TrajectoryPoint",
+    "MotionProfile",
+    "MotionSample",
+    "build_profile",
+]
